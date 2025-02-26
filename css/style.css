@@ -2,8 +2,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans'; sans-serif;
 }
 
-/*--HEADER--*/
+/*--MAIN ASSETS--*/
 
+body{
+    font-family: 'open sans', sans-serif;
+}
+
+header{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 20px 10px;
+}
+
+h1{
+    width: 100%;
+    font-size: 70px;
+    font-weight: 900;
+    padding: 20px 0;
+}
+
+h2{
+    font-size: 40px;
+    padding: 20px 0 50px 0;
+}
+
+h3{
+    font-size: 25px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+p{
+    padding: 20px 0;
+}
+
+hr{
+    border-color: #999;
+}
+
+.footer-info ul{
+    padding: 20px 0;
+}
+
+.footer-info ul li{
+    padding: 10px 0;
+}
