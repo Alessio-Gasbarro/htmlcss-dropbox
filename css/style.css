@@ -58,3 +58,101 @@ hr{
 .footer-info ul li{
     padding: 10px 0;
 }
+
+/* Flexbox and layout tools */
+.d-flex{
+    display: flex;
+}
+
+.align-content{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.align-paragraph{
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.align-left{
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.align-right{
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+/* Containers */
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.jumbotron{
+    padding: 30px 0;
+    height: 650px;
+}
+
+.text-box{
+    padding: 30px;
+}
+
+.col-100{
+    width: 100%;
+}
+.col-70{
+    width: 70%;
+}
+.col-60{
+    width: 60%;
+}
+.col-50{
+    width: 50%;
+}
+.col-40{
+    width: 40%;
+}
+.col-30{
+    width: 30%;
+}
+.col-25{
+    width: 25%;
+}
+.col-20{
+    width: 20%;
+}
+.col-10{
+    width: 10%;
+}
+
+
+/*--SEZIONE LINK--*/
+.button a, .button a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+.white-button a, .white-button a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-info ul li a, .footer-info ul li a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
