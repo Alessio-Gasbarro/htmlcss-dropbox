@@ -2,41 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans'; sans-serif;
 }
 
 /*--HEADER--*/
 
-header{
-    background-color: white;
-    padding: 10px 0;
-}
-
-.container{
-    width: 1180px;
-    margin: 0 auto;
-}
-
-.row{
-    display: flex;
-}
-
-.left-header, .right-header{
-    width: 20%;
-    flex-wrap: wrap;
-    display: flex;
-}
-
-.align-center{
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-
-.list{
-    list-style-type: none;
-    flex-direction: row;
-}
-
-.d-flex{
-    display: flex;
-}
