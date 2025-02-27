@@ -156,3 +156,97 @@ hr{
     color: #fff;
 }
 
+/* Elements */
+.logo{
+    margin: 7px;
+}
+
+.menu{
+    top: 62px;
+    left: 0px;
+    width: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.menu-card{
+    display: flex;
+    padding: 10px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.arrow-down{
+    font-size: 50px;
+    position: absolute;
+    bottom: 90px;
+}
+
+#invis-line{
+    border: 0.3px solid #FAFAFA;
+    margin: 50px 0;
+}
+
+.button{
+    padding: 10px;
+    background-color: #0061FE;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.fixed-button{
+    width: 100%;
+    padding: 10px;
+    background-color: #0061FE;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.white-button{
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.radio-button{
+    margin: 20px 40px 20px 0;
+}
+
+.plan-name{
+    padding: 10px 0;
+}
+
+.img-paragraph{
+    width: 100%;
+}
+
+.footer-info{
+    padding: 70px 0;
+}
+
+.footer-lang{
+    padding: 50px 0;
+}
+
+.jumbo-spacing{
+    background-color: #fff;
+    height: 100px;
+}
+
+#last-paragraph{
+    padding-bottom: 200px;
+}
