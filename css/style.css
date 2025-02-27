@@ -59,7 +59,7 @@ hr{
     padding: 10px 0;
 }
 
-/* Flexbox and layout tools */
+/*--FLEXBOX AND ADJUSTMENTS--*/
 .d-flex{
     display: flex;
 }
@@ -96,7 +96,7 @@ hr{
     display: inline-block;
 }
 
-/* Containers */
+/*--TUTTI I CONTAINER--*/
 .container{
     max-width: 1180px;
     margin: 0 auto;
@@ -139,7 +139,7 @@ hr{
     width: 10%;
 }
 
-/* Animations */
+/*--SEZIONE ANIMAZIONI--*/
 header div ul li a:hover{
     text-decoration: underline;
     color: #0061FE;
@@ -184,7 +184,7 @@ header div ul li a:hover{
     color: #fff;
 }
 
-/* Elements */
+/*--ELEMENTI BASE--*/
 .logo{
     margin: 7px;
 }
@@ -213,7 +213,7 @@ header div ul li a:hover{
 .arrow-down{
     font-size: 50px;
     position: absolute;
-    bottom: 90px;
+    padding-top: 40px;
 }
 
 #invis-line{
@@ -335,4 +335,32 @@ header div ul li a:hover{
 
 .jumbo-text-spacing{
     padding-bottom: 30px;
+}
+
+/*--ANIMAZIONI HOVER--*/
+header div ul li a:hover{
+    text-decoration: underline;
+    color: #0061FE;
+}
+
+.footer-info ul li a:hover{
+    text-decoration: underline;
+}
+
+.button:hover, .fixed-button:hover{
+    background-color: #0041DE;
+}
+
+.white-button:hover{
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.menu-card:hover{
+    background-color: #DDD;
+}
+
+.position-relative:hover .menu{
+    display: block
 }
