@@ -139,6 +139,34 @@ hr{
     width: 10%;
 }
 
+/* Animations */
+header div ul li a:hover{
+    text-decoration: underline;
+    color: #0061FE;
+}
+
+.footer-info ul li a:hover{
+    text-decoration: underline;
+}
+
+.button:hover, .fixed-button:hover{
+    background-color: #0041DE;
+}
+
+.white-button:hover{
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.menu-card:hover{
+    background-color: #DDD;
+}
+
+.position-relative:hover .menu{
+    display: block
+}
+
 
 /*--SEZIONE LINK--*/
 .button a, .button a:visited{
@@ -249,4 +277,62 @@ hr{
 
 #last-paragraph{
     padding-bottom: 200px;
+}
+
+/* Utilities */
+.black-text{
+    color: #000;
+}
+
+.blue-text{
+    color: #0061FE;
+}
+
+.white-text{
+    color: #fff;
+}
+
+.grey-text{
+    color: #999;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.text-reset{
+    text-decoration: none;
+}
+
+.plan-box{
+    border: 1px solid #999;
+    margin: 30px 0;
+}
+
+.bg-lightblue{
+    background-color: #B4D0E6;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.bg-black{
+    background-color: #000;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+.jumbo-text-spacing{
+    padding-bottom: 30px;
 }
